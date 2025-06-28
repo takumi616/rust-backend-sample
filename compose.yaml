@@ -1,6 +1,10 @@
 services:
-  server:
+  app:
     build:
       context: .
       target: final
+    environment:
+      - CONTAINER_APP_PORT=$CONTAINER_APP_PORT
+    ports:
+      - "$LOCAL_APP_PORT:$CONTAINER_APP_PORT"
 

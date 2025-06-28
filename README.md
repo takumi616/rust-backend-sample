@@ -1,2 +1,2 @@
 # rust-backend-sample
-Sample backend project with Rust
+Sample backend project in Rust
